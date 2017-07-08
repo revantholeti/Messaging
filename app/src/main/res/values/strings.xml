@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Messaging</string>
+    <string name="button">Logout</string>
+</resources>

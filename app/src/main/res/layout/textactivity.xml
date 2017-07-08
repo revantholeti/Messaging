@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1"
+    android:background="#a3032971">
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="10dp"
+        android:elevation="0dp"
+        android:text="@string/button"
+        android:textAllCaps="false"
+        android:layout_gravity="right"
+        android:textSize="25dp"
+        android:onClick="log out"
+        android:background="@android:color/transparent"
+        android:textColor="#db31e2f1"
+        />
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal|center_vertical|center">
+    <EditText
+        android:id="@+id/phntext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone"
+        android:hint="enter phone number"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"
+        />
+    <EditText
+        android:id="@+id/messagetext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="enter message"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="10dp"
+        android:textColorHint="#fff"
+        android:textColor="#fff"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp">
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginLeft="50dp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/selimg"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:text="Select image"
+                    android:textSize="18dp"
+                    android:background="@drawable/button_border"
+                    android:textColor="#fff"/>
+
+                <Button
+                    android:id="@+id/sendbtn"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="SEND"
+                    android:layout_marginTop="10dp"
+                    android:textSize="18dp"
+                    android:background="@drawable/button_border"
+                    android:textColor="#fff"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
